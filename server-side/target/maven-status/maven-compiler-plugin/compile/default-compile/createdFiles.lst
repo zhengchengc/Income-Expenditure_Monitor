@@ -1,6 +1,6 @@
+com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.class
 com/olichid/moneyMonitor/APIforMoneyMonitor/ApIforMoneyMonitorApplication.class
-com/olichid/moneyMonitor/APIforMoneyMonitor/controller/CostController.class
-com/olichid/moneyMonitor/APIforMoneyMonitor/defaultDoc/EachCost.class
-com/olichid/moneyMonitor/APIforMoneyMonitor/repository/CostRepository.class
-com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostService.class
-com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostServiceImpl.class
+com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.class
+com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.class
+com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.class
+com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.class
