@@ -27,13 +27,14 @@ class Update extends React.Component {
     }
     componentDidMount() {
         this.setState({
-            id: this.props.financialtransaction.id,
+            id: this.props.expense.id,
             description: this.props.expense.description,
             amount: this.props.expense.amount,
             month: this.props.expense.month,
             year: this.props.expense.year
         });
     }
+
     componentWillReceiveProps(nextProps){
         this.setState({
             id: nextProps.expense.id,
@@ -42,18 +43,21 @@ class Update extends React.Component {
             year:nextProps.expense.year
         })
     }
+
     openModal() {
         this.setState({
             modalIsOpen: true
         });
     }
+
     closeModal() {
         this.setState({
             modalIsOpen: false,
             messageFromServer: ''
         });
     }
-    handleSelectChange(e) {
+
+    handleSelectChange = (e) => {
         if (e.target.name === "month") {
             this.setState({
                 month: e.target.value
@@ -64,8 +68,8 @@ class Update extends React.Component {
                 year: e.target.value
             });
         }
-    }
-    handleTextChange(e) {
+    };
+    handleTextChange = (e) => {
         if (e.target.name === "description") {
             this.setState({
                 description: e.target.value
@@ -76,10 +80,12 @@ class Update extends React.Component {
                 amount: e.target.value
             });
         }
-    }
-    onClick(e) {
+    };
+
+    onClick = (e) => {
         this.update(this);
-    }
+    };
+
     update(e) {
         let financialtransaction = {
             id: e.state.id,
@@ -87,30 +93,37 @@ class Update extends React.Component {
             amount: e.state.amount,
             month: e.state.month,
             year: e.state.year
-        }
+        };
 
-        axios.post('http://localhost:8080/financialtransaction', financialtransaction).then(function(response) {
-            e.setState({
-                messageFromServer: response.data
-            });
-        });
+        axios.post('http://localhost:8080/expense', financialtransaction)
+            .then((res) => {
+                e.setState({
+                    messageFromServer: res.data
+                });
+        })
     }
+
     render() {
-        if(this.state.messageFromServer == ''){
+        if(this.state.messageFromServer === ''){
             return (
                 <div>
-                    <Button bsStyle="warning" bsSize="small" onClick={this.openModal}><span className="glyphicon glyphicon-edit"></span></Button>
+                    <Button bsStyle="warning" bsSize="small" onClick={this.openModal}>
+                        <span className="glyphicon glyphicon-edit" />
+                    </Button>
                     <Modal
                         isOpen={this.state.modalIsOpen}
                         onRequestClose={this.closeModal}
                         contentLabel="Add Expense"
                         className="Modal">
                         <Link to={{pathname: '/', search: '?month='+this.state.month+'&year='+this.state.year }} style={{ textDecoration: 'none' }}>
-                            <Button bsStyle="danger" bsSize="mini" onClick={this.closeModal}><span className="closebtn glyphicon glyphicon-remove"></span></Button>
+                            <Button bsStyle="danger" bsSize="mini" onClick={this.closeModal}><span className="closebtn glyphicon glyphicon-remove" />
+                            </Button>
                         </Link><br/>
                         <fieldset>
-                            <label for="description">Description:</label><input type="text" id="description" name="description" value={this.state.description} onChange={this.handleTextChange}></input>
-                            <label for="amount">Amount:</label><input type="number" id="amount" name="amount" value={this.state.amount} onChange={this.handleTextChange}></input>
+                            <label for="description">Description:</label>
+                            <input type="text" id="description" name="description" value={this.state.description} onChange={this.handleTextChange} />
+                            <label for="amount">Amount:</label>
+                            <input type="number" id="amount" name="amount" value={this.state.amount} onChange={this.handleTextChange} />
                             <label for="month">Month:</label><select id="month" name="month" value={this.state.month} onChange={this.handleSelectChange}>
                             <option value="Jan" id="Jan">January</option>
                             <option value="Feb" id="Feb">Febrary</option>
@@ -125,7 +138,8 @@ class Update extends React.Component {
                             <option value="Nov" id="Nov">November</option>
                             <option value="Dec" id="Dec">December</option>
                         </select>
-                            <label for="year">Year:</label><select id="year" name="year" value={this.state.year} onChange={this.handleSelectChange}>
+                            <label for="year">Year:</label>
+                            <select id="year" name="year" value={this.state.year} onChange={this.handleSelectChange}>
                             <option value="2015" id="17">2015</option>
                             <option value="2016" id="17">2016</option>
                             <option value="2017" id="17">2017</option>
@@ -145,7 +159,9 @@ class Update extends React.Component {
         else{
             return (
                 <div>
-                    <Button bsStyle="warning" bsSize="small" onClick={this.openModal}><span className="glyphicon glyphicon-edit"></span></Button>
+                    <Button bsStyle="warning" bsSize="small" onClick={this.openModal}>
+                        <span className="glyphicon glyphicon-edit" />
+                    </Button>
                     <Modal
                         isOpen={this.state.modalIsOpen}
                         onAfterOpen={this.afterOpenModal}

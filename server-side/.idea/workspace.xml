@@ -2,46 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="141c7a57-b244-446d-b9a1-7978918f141d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../client-side/.idea/client-side.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-side/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-side/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-side/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../client-side/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/money-monitor.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/Add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/Delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/Update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/tabs/monthTabs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/tabs/monthTabsRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/components/tabs/yearTabsRouter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/css/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/src/routes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../client-side/money-monitor/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/Add.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/Add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/Delete.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/Delete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/Update.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/Update.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/tabs/monthTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/tabs/monthTabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/components/tabs/yearTabsRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/components/tabs/yearTabsRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-side/src/css/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/../client-side/src/css/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/CostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/defaultDoc/EachCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/CostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/CostController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/defaultDoc/EachCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/CostRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/service/CostServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/ExpenseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/ExpenseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -58,10 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/Expense.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
                 <element signature="e#319#320#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
@@ -89,10 +69,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/ExpenseRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,17 +83,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/ApIforMoneyMonitorApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="105">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/ExpenseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="698">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="215">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            <state relative-caret-position="337">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,18 +124,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/APIforMoneyMonitor.iml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -179,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/Expense.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/ExpenseController.java" />
       </list>
     </option>
   </component>
@@ -327,12 +321,12 @@
       <updated>1554375822091</updated>
       <workItem from="1554375829365" duration="4821000" />
       <workItem from="1554517140536" duration="1656000" />
-      <workItem from="1554520216352" duration="1487000" />
+      <workItem from="1554520216352" duration="2285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7964000" />
+    <option name="totallyTimeSpent" value="8762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="834" extended-state="6" />
@@ -376,27 +370,36 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/ApIforMoneyMonitorApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/ExpenseRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/FinancialTransactionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="168">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/FinancialTransaction.java">
+    <entry file="file://$PROJECT_DIR$/APIforMoneyMonitor.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/ApIforMoneyMonitorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/domain/Expense.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="e#319#320#0" expanded="true" />
             <element signature="e#344#345#0" expanded="true" />
@@ -422,38 +425,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/repository/FinancialTransactionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/FinancialTransactionServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/APIforMoneyMonitor.iml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/service/ExpenseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/olichid/moneyMonitor/APIforMoneyMonitor/controller/ExpenseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

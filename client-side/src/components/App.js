@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import axios from 'axios/index';
 import Add from './Add';
 import Update from './Update';
@@ -7,49 +6,49 @@ import Delete from './Delete';
 import { Tab, Tabs } from 'react-bootstrap';
 import YearTabsRouter from './tabs/yearTabsRouter';
 import MonthTabs from './tabs/monthTabs';
-import styles from '../css/App.css';
 
 export default class App extends Component {
 
   constructor() {
     super();
-    this.state = {selectedMonth:'All', selectedYear: 2016, data: [], activeTab:2016};
+    this.state = {selectedMonth:'All', selectedYear: 2019, data: [], activeTab: 2019};
     this.getData = this.getData.bind(this);
   }
+
   componentWillReceiveProps(nextProps) {
-    if(nextProps.history.location.search){
+    if(nextProps.history.location.search) {
       let search = nextProps.history.location.search;
       search = search.substring(1);
-      let searchObj = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}');
+      let searchObj = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') + '"}');
       this.setState({activeTab: parseInt(searchObj.year)});
       this.setState({selectedYear: searchObj.year});
       this.setState({selectedMonth: searchObj.month});
-
-
       this.getData(this, searchObj.year, searchObj.month);
-    }else{
-      this.getData(this, 2016, 'All');
+    } else {
+      this.getData(this, 2019, 'All')
     }
   }
+
   componentDidMount(){
-    this.getData(this, 2016, 'All');
+    this.getData(this, 2019, 'All');
   }
-  handleSelect(selectedTab) {
+
+  handleSelect = (selectedTab) => {
     this.setState({
       activeTab: selectedTab,
       selectedYear: selectedTab
     });
-  }
+  };
+
   getData(ev, year, month){
-    axios.get('http://localhost:8080/financialtransaction/'+year+'/'+month)
-        .then(function(response) {
-          ev.setState({data: response.data});
+    axios.get('http://localhost:8080/expense/' + year +'/'+ month )
+        .then((res) => {
+          ev.setState({data: res.data});
           ev.setState({selectedYear: parseInt(year)});
           ev.setState({selectedMonth: month});
         });
-
-
   }
+
   render() {
     return (
         <div>
@@ -63,12 +62,28 @@ export default class App extends Component {
           <Add selectedMonth={this.state.selectedMonth} selectedYear={this.state.selectedYear} />
           <table>
             <thead>
-            <tr><th></th><th className='desc-col'>Description</th><th className='button-col'>Amount</th><th className='button-col'>Month</th><th className='button-col'>Year</th><th className='button-col'>Update</th><th className='button-col'>Delete</th></tr>
+            <tr>
+              <th />
+              <th className='desc-col'>Description</th>
+              <th className='button-col'>Amount</th>
+              <th className='button-col'>Month</th>
+              <th className='button-col'>Year</th>
+              <th className='button-col'>Update</th>
+              <th className='button-col'>Delete</th>
+            </tr>
             </thead>
             <tbody>
             {
               this.state.data.map((exp) => {
-                return  <tr><td className='counterCell'></td><td className='desc-col'>{exp.description}</td><td className='button-col'>{exp.amount}</td><td className='button-col'>{exp.month}</td><td className='button-col'>{exp.year}</td><td className='button-col'><Update expense={exp}/></td><td className='button-col'><Delete expense={exp} /></td></tr>
+                return  <tr>
+                  <td className='counterCell' />
+                  <td className='desc-col'>{exp.description}</td>
+                  <td className='button-col'>{exp.amount}</td>
+                  <td className='button-col'>{exp.month}</td>
+                  <td className='button-col'>{exp.year}</td>
+                  <td className='button-col'><Update expense={exp}/></td>
+                  <td className='button-col'><Delete expense={exp} /></td>
+                </tr>
               })
             }
             </tbody>

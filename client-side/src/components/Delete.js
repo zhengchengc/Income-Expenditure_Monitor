@@ -3,41 +3,49 @@ import ReactDOM from 'react-dom';
 import axios from 'axios';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
 class Delete extends React.Component {
+
     constructor(){
         super();
         this.state={id: '', month: '', year: ''};
         this.onClick = this.onClick.bind(this);
         this.delete = this.delete.bind(this);
     }
+
     componentDidMount() {
         this.setState({
-            id: this.props.eachCost.id,
-            month: this.props.eachCost.month,
-            year: this.props.eachCost.year
+            id: this.props.expense.id,
+            month: this.props.expense.month,
+            year: this.props.expense.year
         })
     }
+
     componentWillReceiveProps(nextProps){
         this.setState({
-            id: nextProps.eachCost.id,
-            month:nextProps.eachCost.month,
-            year:nextProps.eachCost.year
+            id: nextProps.expense.id,
+            month: nextProps.expense.month,
+            year: nextProps.expense.year
         })
     }
-    onClick(e){
+
+    onClick = (e) => {
         this.delete(this);
-    }
-    delete(e){
-        axios.delete('http://localhost:8080/financialtransaction',{
-            params: { id: e.state.id }
+    };
+
+    delete = (e) => {
+        axios.get('http://localhost:8080/expense', {
+            params: {id: e.state.id}
         })
-            .then((res) => {
+            .then(function (response) {
+
             });
-    }
+    };
+
     render(){
         return (
             <Button bsStyle="danger" bsSize="small" onClick={this.onClick}>
-                <Link to={{pathname: '/', search: '?month='+this.state.month+'&year='+this.state.year}} style={{ textDecoration: 'none' }}>
+                <Link to={{pathname: '/', search: '?month='+this.state.month+'&year'+this.state.year}} style={{ textDecoration: 'none' }}>
                     <span className="glyphicon glyphicon-remove" />
                 </Link>
             </Button>
