@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/APIforMoneyMonitor.iml" filepath="$PROJECT_DIR$/APIforMoneyMonitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExpenseManagerAPI.iml" filepath="$PROJECT_DIR$/ExpenseManagerAPI.iml" />
     </modules>
   </component>
 </project>

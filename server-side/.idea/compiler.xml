@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ExpenseManagerAPI" />
         <module name="APIforMoneyMonitor" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="APIforMoneyMonitor" target="1.8" />
+      <module name="ExpenseManagerAPI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
