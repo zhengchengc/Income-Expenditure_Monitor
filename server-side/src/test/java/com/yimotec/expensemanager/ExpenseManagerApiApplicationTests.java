@@ -1,4 +1,4 @@
-package com.expenseManager.ExpenseManagerAPI;
+package com.yimotec.expensemanager;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

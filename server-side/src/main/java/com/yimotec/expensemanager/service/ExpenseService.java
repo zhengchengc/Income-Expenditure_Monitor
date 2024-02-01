@@ -1,8 +1,8 @@
-package com.expenseManager.ExpenseManagerAPI.service;
+package com.yimotec.expensemanager.service;
 
 import java.util.List;
 
-import com.expenseManager.ExpenseManagerAPI.domain.Expense;
+import com.yimotec.expensemanager.domain.Expense;
 
 public interface ExpenseService {
 	

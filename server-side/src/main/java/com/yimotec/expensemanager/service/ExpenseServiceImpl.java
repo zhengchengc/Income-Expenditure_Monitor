@@ -1,18 +1,17 @@
-package com.expenseManager.ExpenseManagerAPI.service;
+package com.yimotec.expensemanager.service;
 
 import java.util.List;
 
+import com.yimotec.expensemanager.domain.Expense;
+import com.yimotec.expensemanager.repositories.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.expenseManager.ExpenseManagerAPI.domain.Expense;
-import com.expenseManager.ExpenseManagerAPI.repositories.ExpenseRepository;
 
 @Service
 public class ExpenseServiceImpl implements ExpenseService {
 
 	@Autowired
-	ExpenseRepository expenseRepository;
+    ExpenseRepository expenseRepository;
 
 	@Override
 	public List<Expense> findAll() {
