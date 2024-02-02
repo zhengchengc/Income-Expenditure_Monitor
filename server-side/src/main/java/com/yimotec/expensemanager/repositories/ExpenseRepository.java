@@ -12,4 +12,5 @@ public interface ExpenseRepository extends MongoRepository<Expense, String>{
 	
 	List<Expense> findByYear(int year);
 
+	void delete(String id);
 }

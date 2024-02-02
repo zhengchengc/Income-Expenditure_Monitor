@@ -10,8 +10,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class ExpenseServiceImpl implements ExpenseService {
 
-	@Autowired
-    ExpenseRepository expenseRepository;
+	final
+	ExpenseRepository expenseRepository;
+
+	public ExpenseServiceImpl(ExpenseRepository expenseRepository) {
+		this.expenseRepository = expenseRepository;
+	}
 
 	@Override
 	public List<Expense> findAll() {
