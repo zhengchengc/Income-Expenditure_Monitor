@@ -16,5 +16,4 @@ public class Expense {
 	Integer amount;
 	String month;
 	int year;
-
 }
